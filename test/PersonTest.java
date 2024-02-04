@@ -72,18 +72,18 @@ class PersonTest {
         p1.setLastName("Maddy");
     assertEquals("Esq Bob Maddy",p1.FormalName());
     }
-    @Test
-    void testGetCurrentYear(){
-        Person p1 = new Person();
-        int currentYear = Calendar.getInstance().get(Calendar.YEAR);
-        assertEquals(2024, Integer.parseInt(p1.getAge()));
-    }
+
+    /*Current Age*/
     @Test
     void testGetAge() {
         int yearOfBirth = p1.getYOB();
-        assertEquals(44, Integer.parseInt(p1.getAge(yearOfBirth)));
+        assertEquals(44, Integer.parseInt(p1.getAge()));
     }
-
-
+/*Specific Age*/
+    @Test
+    void testGetSpecificYear(){
+        int year = p1.getYOB();
+        assertEquals(95, Integer.parseInt(p1.getAge(year)));
+    }
 }
 

@@ -5,22 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b827bbf-c3a7-4261-868a-4bacca62a3bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_01_Get_Classy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PersonGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PersonReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProductGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProductReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SafeInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SalaryWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/SalaryWorkerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/WorkerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ProductTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -47,58 +43,66 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PersonGenerator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProductGenerator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sample.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.PersonTest.Age.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonTest.formalname.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonTest.fullName.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonTest.fullname.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonTest.getIDSeed.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonTest.setFirstName.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonTest.setID.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonTest.setIDSeed.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.PersonTest.setLastName.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonTest.setTitle.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonTest.setYOB.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonTest.testCalculateAge.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonTest.testCurrentYear.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonTest.testGetCurrentYear.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonTest.toCSVDataRecord.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonTestFullName.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonTestNew.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProductTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProductTest.productInfo.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProductTest.setCost.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProductTest.setID.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProductTest.setName.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProductTest.toCSVDataRecord.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers&quot;: &quot;true&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-11&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.PersonGenerator.executor": "Run",
+    "Application.ProductGenerator.executor": "Run",
+    "Application.Sample.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.PersonTest.Age.executor": "Run",
+    "JUnit.PersonTest.executor": "Run",
+    "JUnit.PersonTest.formalname.executor": "Run",
+    "JUnit.PersonTest.fullName.executor": "Run",
+    "JUnit.PersonTest.fullname.executor": "Run",
+    "JUnit.PersonTest.getIDSeed.executor": "Run",
+    "JUnit.PersonTest.setFirstName.executor": "Run",
+    "JUnit.PersonTest.setID.executor": "Run",
+    "JUnit.PersonTest.setIDSeed.executor": "Debug",
+    "JUnit.PersonTest.setLastName.executor": "Run",
+    "JUnit.PersonTest.setTitle.executor": "Run",
+    "JUnit.PersonTest.setYOB.executor": "Run",
+    "JUnit.PersonTest.testCalculateAge.executor": "Run",
+    "JUnit.PersonTest.testCurrentYear.executor": "Run",
+    "JUnit.PersonTest.testGetAge.executor": "Run",
+    "JUnit.PersonTest.testGetCurrentYear.executor": "Run",
+    "JUnit.PersonTest.testGetSpecificYear.executor": "Run",
+    "JUnit.PersonTest.toCSVDataRecord.executor": "Run",
+    "JUnit.PersonTestFullName.executor": "Run",
+    "JUnit.PersonTestNew.executor": "Run",
+    "JUnit.ProductTest.executor": "Run",
+    "JUnit.ProductTest.productInfo.executor": "Run",
+    "JUnit.ProductTest.setCost.executor": "Run",
+    "JUnit.ProductTest.setID.executor": "Run",
+    "JUnit.ProductTest.setName.executor": "Run",
+    "JUnit.ProductTest.toCSVDataRecord.executor": "Run",
+    "JUnit.SalaryWorkerTest.executor": "Run",
+    "JUnit.SalaryWorkerTest.testDisplayWeeklyPay.executor": "Run",
+    "JUnit.WorkerTest.calculateWeeklyPay.executor": "Run",
+    "JUnit.WorkerTest.executor": "Run",
+    "JUnit.WorkerTest.testCalculateWeeklyPay.executor": "Run",
+    "JUnit.WorkerTest.testDisplayWeeklyPay.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "corretto-11",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JAVA&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -107,62 +111,73 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PersonTest">
-    <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SalaryWorkerTest.testDisplayWeeklyPay">
+    <configuration name="SalaryWorkerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab_01_Get_Classy" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PersonTest" />
+      <option name="MAIN_CLASS_NAME" value="SalaryWorkerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest.testCalculateAge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SalaryWorkerTest.testDisplayWeeklyPay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab_01_Get_Classy" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PersonTest" />
-      <option name="METHOD_NAME" value="testCalculateAge" />
+      <option name="MAIN_CLASS_NAME" value="SalaryWorkerTest" />
+      <option name="METHOD_NAME" value="testDisplayWeeklyPay" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest.testCurrentYear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WorkerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab_01_Get_Classy" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PersonTest" />
-      <option name="METHOD_NAME" value="testCurrentYear" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonTest.testGetCurrentYear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab_01_Get_Classy" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PersonTest" />
-      <option name="METHOD_NAME" value="testGetCurrentYear" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab_01_Get_Classy" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductTest" />
+      <option name="MAIN_CLASS_NAME" value="WorkerTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkerTest.testCalculateWeeklyPay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab_01_Get_Classy" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WorkerTest" />
+      <option name="METHOD_NAME" value="testCalculateWeeklyPay" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkerTest.testDisplayWeeklyPay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab_01_Get_Classy" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WorkerTest" />
+      <option name="METHOD_NAME" value="testDisplayWeeklyPay" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PersonTest" />
-        <item itemvalue="JUnit.ProductTest" />
-        <item itemvalue="JUnit.PersonTest.testGetCurrentYear" />
-        <item itemvalue="JUnit.PersonTest.testCalculateAge" />
-        <item itemvalue="JUnit.PersonTest.testCurrentYear" />
+        <item itemvalue="JUnit.SalaryWorkerTest.testDisplayWeeklyPay" />
+        <item itemvalue="JUnit.WorkerTest.testCalculateWeeklyPay" />
+        <item itemvalue="JUnit.WorkerTest.testDisplayWeeklyPay" />
+        <item itemvalue="JUnit.WorkerTest" />
+        <item itemvalue="JUnit.SalaryWorkerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -183,5 +198,16 @@
       <updated>1706033102189</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/WorkerTest.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

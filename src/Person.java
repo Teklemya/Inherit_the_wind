@@ -73,17 +73,18 @@ public class Person {
         return this.title +" "+ this.firstName+" "+ this.lastName;
     }
 
+//Calculate the current age
     public String getAge(){
         Calendar calendar = Calendar.getInstance();
-        int year = calendar.get(Calendar.YEAR);
-        String year2 = Integer.toString(year);
-        return year2;
-    }
-    public String getAge(int yearOfBirth) {
-        Calendar calendar = Calendar.getInstance();
         int currentYear = calendar.get(Calendar.YEAR);
-        int age = currentYear - yearOfBirth;
+        int age = currentYear - YOB;
         return Integer.toString(age);
+    }
+    //    Calculate Age at a specific year
+    public String getAge(int year) {
+        int specificYear = 2075;
+        int specificAge = specificYear - year;
+        return Integer.toString(specificAge);
     }
 
     public String toCSVDataRecord(){
